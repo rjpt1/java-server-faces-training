@@ -26,7 +26,27 @@ public class Candidato {
     //private int salarioDeseado;
     private String salarioDeseado;
     private Date fechaNacimiento;
+    private String codigoPostal;
+    private int coloniaId;
+    private String ciudad;
+    private String comentario;
 
+    public String getCodigoPostal() {
+        return codigoPostal;
+    }
+
+    public void setCodigoPostal(String codigoPostal) {
+        this.codigoPostal = codigoPostal;
+    }
+
+    public String getCiudad() {
+        return ciudad;
+    }
+
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+    
     public Candidato() {
         log.info("Creando el objeto Candidato");
     }
@@ -71,6 +91,24 @@ public class Candidato {
     public void setSalarioDeseado(String salarioDeseado) {
         this.salarioDeseado = salarioDeseado;
     }
+
+    public String getComentario() {
+        return comentario;
+    }
+
+    public void setComentario(String comentario) {
+        this.comentario = comentario;
+    }
+
+    public int getColoniaId() {
+        return coloniaId;
+    }
+
+    public void setColoniaId(int coloniaId) {
+        this.coloniaId = coloniaId;
+    }
+
+    
     
     
     
